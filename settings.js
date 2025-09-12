@@ -34,15 +34,6 @@ global.my = {
 
   ch3: '120363203805910750@newsletter', 
   name3: '⚶ ⊹ Max Evolution𝄢 ⊹',
-
-  ch4: '120363419837575209@newsletter',
-  name4: '⚶ ⊹ Night ⚡︎ Light - Team 𝄢 ⊹',
-
-  ch5: '120363404511074294@newsletter',
-  name5: '⚶ ⊹ Stellar WaBot ⚡︎ Test 𝄢 ⊹',
-
-  ch6: '120363418959013227@newsletter',
-  name6: '𓆩⚝𓆪Alya 𓍯bot𓆩⚝𓆪 • Channel ⟡'
 }
 
 const file = fileURLToPath(import.meta.url)

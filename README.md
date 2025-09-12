@@ -40,7 +40,7 @@ termux-setup-storage
 apt update && apt upgrade && pkg install -y git nodejs ffmpeg imagemagick yarn
 ```
 ```bash
-git clone https://github.com/DevAlexJs/SakuraBot-MD && cd SakuraBot-MD
+git clone https://github.com/ittschinitaaa/Luna && cd Luna
 ```
 ```bash
 yarn install
@@ -82,19 +82,19 @@ pm2 start index
 ### En caso de detenerse
 > _Si despues que ya instalastes tu bot y termux te salta en blanco, se fue tu internet o reiniciaste tu celular, solo realizaras estos pasos:_
 ```bash
-cd && cd SakuraBot-MD && npm start
+cd && cd Luna-MD && npm start
 ```
 ----
 ### Obtener nuevo código QR 
 > *Detén el bot, haz click en el símbolo (ctrl) [default=z] usar la letra "z" + "ENTER" hasta que salga algo verdes similar a: `SakuraBot-MD $`*
 > **Escribe los siguientes comando uno x uno :**
 ```bash 
-cd && cd SakuraBot-MD && rm -rf sessions/session-bot && npm run qr
+cd && cd Luna && rm -rf sessions/session-bot && npm run qr
 ```
 ----
 ### Obtener nuevo código de teléfono 
 ```bash 
-cd && cd SakuraBot-MD && rm -rf sessions/session-bot && npm run code
+cd && cd Luna && rm -rf sessions/session-bot && npm run code
 ```
 </details>
 
@@ -152,4 +152,4 @@ grep -q 'bash\|wget' <(dpkg -l) || apt install -y bash wget && wget -O - https:/
 </a> 
 
 ### 🌾 Autor Del Proyecto
-[![Alexius](https://github.com/DevAlexJs.png?size=100)](https://github.com/DevAlexJs) 
+[![Alexius](https://github.com/ittschinitaaa.png?size=100)](https://github.com/ittschinitaaa) 

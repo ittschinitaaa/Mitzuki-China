@@ -117,10 +117,6 @@ grep -q 'bash\|wget' <(dpkg -l) || apt install -y bash wget && wget -O - https:/
 
 ---
 
-### 🫛 Colaboradores
-<a href="https://github.com/ittschinitaaa/Luna/graphs/contributors">
-<img src="https://contrib.rocks/image?repo=ittschinitaaa/Luna" /> 
-</a> 
 
 ### 🌾 Autora Del Proyecto
 [![China](https://github.com/ittschinitaaa.png?size=100)](https://github.com/ittschinitaaa) 

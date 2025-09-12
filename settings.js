@@ -4,7 +4,7 @@ import { fileURLToPath } from "url"
 
 global.botNumber = ""
 
-global.owner = ["5492916450307"]
+global.owner = ["923256941884"]
 
 global.botname = '🕸 SakuraBot-MD'
 global.namebot = '🥗 Sakura Bot'

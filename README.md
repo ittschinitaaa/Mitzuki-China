@@ -122,5 +122,5 @@ grep -q 'bash\|wget' <(dpkg -l) || apt install -y bash wget && wget -O - https:/
 <img src="https://contrib.rocks/image?repo=ittschinitaaa/Luna" /> 
 </a> 
 
-### 🌾 Autor Del Proyecto
-[![Alexius](https://github.com/ittschinitaaa.png?size=100)](https://github.com/ittschinitaaa) 
+### 🌾 Autora Del Proyecto
+[![China](https://github.com/ittschinitaaa.png?size=100)](https://github.com/ittschinitaaa) 

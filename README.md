@@ -112,16 +112,14 @@ grep -q 'bash\|wget' <(dpkg -l) || apt install -y bash wget && wget -O - https:/
 > *Estos comandos solo funcionan para TERMUX, REPLIT, LINUX*
 </details>
 
----
-
 
 </details>
 
 ---
 
 ### 🫛 Colaboradores
-<a href="https://github.com/DevAlexJs/SakuraBot-MD/graphs/contributors">
-<img src="https://contrib.rocks/image?repo=DevAlexJs/SakuraBot-MD" /> 
+<a href="https://github.com/ittschinitaaa/Luna/graphs/contributors">
+<img src="https://contrib.rocks/image?repo=ittschinitaaa/Luna" /> 
 </a> 
 
 ### 🌾 Autor Del Proyecto

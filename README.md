@@ -57,7 +57,7 @@ npm start
 <details>
   <summary><b>🪻 Comandos para mantener más tiempo activo el Bot</b></summary>
 
-> *Ejecutar estos comandos dentro de la carpeta SakuraBot-MD*
+> *Ejecutar estos comandos dentro de la carpeta Luna*
 ```bash
 termux-wake-lock && npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs 
 ``` 
@@ -82,7 +82,7 @@ pm2 start index
 ### En caso de detenerse
 > _Si despues que ya instalastes tu bot y termux te salta en blanco, se fue tu internet o reiniciaste tu celular, solo realizaras estos pasos:_
 ```bash
-cd && cd Luna-MD && npm start
+cd && cd Luna && npm start
 ```
 ----
 ### Obtener nuevo código QR 
@@ -99,14 +99,14 @@ cd && cd Luna && rm -rf sessions/session-bot && npm run code
 </details>
 
 <details>
-<summary><b>🫛 Actualizar SakuraBot</b></summary>
+<summary><b>🫛 Actualizar Luna Bot</b></summary>
 
-> **Utiliza esta opción únicamente si deseas actualizar a la última versión de SakuraBot. Hemos implementado un método ingenioso mediante comandos para realizar la actualización, pero ten en cuenta que al usarla se eliminarán todos los archivos de la versión actual y se reemplazarán con los de la nueva versión. Solo se conservará la base de datos, por lo que será necesario volver a vincular el Bot.**  
+> **Utiliza esta opción únicamente si deseas actualizar a la última versión de Luna Bot. Hemos implementado un método ingenioso mediante comandos para realizar la actualización, pero ten en cuenta que al usarla se eliminarán todos los archivos de la versión actual y se reemplazarán con los de la nueva versión. Solo se conservará la base de datos, por lo que será necesario volver a vincular el Bot.**  
 
-**Comandos para actualizar SakuraBot-MD de forma automática**
+**Comandos para actualizar Luna Bot de forma automática**
 
 ```bash
-grep -q 'bash\|wget' <(dpkg -l) || apt install -y bash wget && wget -O - https://raw.githubusercontent.com/DevAlexJs/SakuraBot-MD/master/update.sh | bash 
+grep -q 'bash\|wget' <(dpkg -l) || apt install -y bash wget && wget -O - https://raw.githubusercontent.com/ittschinitaaa/Luna/master/update.sh | bash 
 ```
 #### Para que no pierda su progreso en SakuraBot, estos comandos realizarán un respaldo de su `datos.json` y se agregará a la versión más reciente.
 > *Estos comandos solo funcionan para TERMUX, REPLIT, LINUX*

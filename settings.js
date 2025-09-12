@@ -32,8 +32,8 @@ global.my = {
   ch2: '120363402839382986@newsletter', 
   name2: '⏤͟͞ू⃪ℂ𝐇𝕀𝐍𝔸 𝐎𝔽𝐈ℂ𝐈𝔸𝐋 .୧𝅄🔥 ִ  .',
 
-  ch3: '120363203805910750@newsletter', 
-  name3: '⚶ ⊹ Max Evolution𝄢 ⊹',
+  ch3: '120363419164978167@newsletter', 
+  name3: '⏤͟͞ू⃪𝐂ℍ𝐈ℕ𝐀 - 𝐓𝔼𝐒𝕋 𑁯🇨🇳ᰍ',
 }
 
 const file = fileURLToPath(import.meta.url)

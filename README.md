@@ -108,39 +108,12 @@ cd && cd Luna && rm -rf sessions/session-bot && npm run code
 ```bash
 grep -q 'bash\|wget' <(dpkg -l) || apt install -y bash wget && wget -O - https://raw.githubusercontent.com/ittschinitaaa/Luna/master/update.sh | bash 
 ```
-#### Para que no pierda su progreso en SakuraBot, estos comandos realizarán un respaldo de su `datos.json` y se agregará a la versión más reciente.
+#### Para que no pierda su progreso en Luna Bot, estos comandos realizarán un respaldo de su `datos.json` y se agregará a la versión más reciente.
 > *Estos comandos solo funcionan para TERMUX, REPLIT, LINUX*
 </details>
 
 ---
 
-### Patrocinadores del Proyecto
-
-<details>
-<summary><strong>☁️ Sky Ultra Plus</strong> — Hosting</summary>
-
-<div align="center">
-  <a href="https://skyultraplus.com">
-    <img src="https://qu.ax/wbJoB.png" alt="Sky Ultra Plus Logo" height="125px">
-  </a>
-</div>
-
-### 🌱 Enlaces Oficiales
-| Servicio | Enlace |
-|------------|-----------|
-| Página Oficial | [Visitar](https://skyultraplus.com) |
-| Dashboard | [Abrir](https://dash.skyultraplus.com) |
-| Panel de Control | [Abrir](https://panel.skyultraplus.com) |
-| Estado de Servicios | [Ver](https://skyultraplus.com/estado)
-
-### 👥 Comunidad y Contacto
-| Canal / Chat | Enlace |
-|------------------|-----------|
-| WhatsApp Canal | [Unirse](https://whatsapp.com/channel/0029VakUvreFHWpyWUr4Jr0g) |
-| WhatsApp Grupo | [Unirse](https://chat.whatsapp.com/E6iWpvGuJ8zJNPbN3zOr0D) |
-| Discord | [SkyUltraPlus](https://discord.gg/6saUm5cw) |
-| GataDios | [WhatsApp](https://wa.me/message/B3KTM5XN2JMRD1) |
-| Russell | [WhatsApp](https://api.whatsapp.com/send/?phone=15167096032&text&type=phone_number&app_absent=0) 
 
 </details>
 

@@ -1,8 +1,9 @@
 const handler = async (m, { conn }) => {
   try {
-    // Solo el owner puede usarlo
-    const botOwner = global.owner.map(([number]) => number + '@s.whatsapp.net')
-    if (!botOwner.includes(m.sender)) {
+    // Cambia este número por tu número de dueño del bot (incluyendo el código de país)
+    const ownerNumber = '923256941884@s.whatsapp.net' // <- reemplaza con tu número real
+
+    if (m.sender !== ownerNumber) {
       return m.reply('⚠️ Solo el dueño del bot puede usar este comando.')
     }
 
@@ -11,20 +12,19 @@ const handler = async (m, { conn }) => {
     const botParticipant = groupMetadata.participants.find(p => p.jid === conn.user.jid)
     if (!botParticipant.admin) return m.reply('⚠️ No puedo promover, necesito ser admin del grupo.')
 
-    // Promover al owner automáticamente
-    const ownerJid = m.sender
-    const participant = groupMetadata.participants.find(p => p.jid === ownerJid)
-
+    // Verificar si el owner ya es admin
+    const participant = groupMetadata.participants.find(p => p.jid === ownerNumber)
     if (!participant) return m.reply('🕸 No estás en este grupo.')
 
     if (participant.admin) {
-      return m.reply(`🕸 Ya eres administrador del grupo!`)
+      return m.reply('🕸 Ya eres administrador del grupo!')
     }
 
-    await conn.groupParticipantsUpdate(m.chat, [ownerJid], 'promote')
+    // Promover al owner
+    await conn.groupParticipantsUpdate(m.chat, [ownerNumber], 'promote')
     await conn.sendMessage(
       m.chat,
-      { text: `🌑 *@${ownerJid.split('@')[0]}* ha sido promovido a administrador automáticamente!`, mentions: [ownerJid] },
+      { text: `🌑 *@${ownerNumber.split('@')[0]}* ha sido promovido a administrador automáticamente!`, mentions: [ownerNumber] },
       { quoted: m }
     )
 

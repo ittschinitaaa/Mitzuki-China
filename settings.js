@@ -6,13 +6,13 @@ global.botNumber = ""
 
 global.owner = ["923256941884"]
 
-global.botname = '⏤͟͟͞͞𝐋ᥙᥒᥲ 𝐁ot ★'
-global.namebot = '🥗 Sakura Bot'
-global.bot = 'SakuraBot'
-global.packname = '🐼 𝗦𝗮𝗸𝘂𝗿𝗮𝗕𝗼𝘁-𝗠𝗗'
-global.wm = '🌿 𝙎𝙖𝙠𝙪𝙧𝙖𝘽𝙤𝙩-𝙈𝘿'
-global.author = '🥗 DevAlexJs'
-global.dev = '© Pᴏᴡᴇʀᴇᴅ Bʏ DᴇᴠAʟᴇxJs.'
+global.botname = '⏤͟͞ू⃪ 𝐋𝕌𝐍𝔸 𝐁𝕆𝐓 𑁯★ᰍ'
+global.namebot = '⏤͟͞ू⃪ 𝐋𝕌𝐍𝔸 𝐁𝕆𝐓 𑁯★ᰍ'
+global.bot = '⏤͟͟͞͞𝐋ᥙᥒᥲ 𝐁ot ★'
+global.packname = '⏤͟͞ू⃪ 𝐋𝕌𝐍𝔸 𝐁𝕆𝐓 𑁯★ᰍ'
+global.wm = '⏤͟͞ू⃪ 𝐋𝕌𝐍𝔸 𝐁𝕆𝐓 𑁯★ᰍ'
+global.author = '🔥 𝕮𝖍𝖎𝖓𝖆'
+global.dev = '© ⍴᥆ᥕᥱrᥱძ ᑲᥡ ᥴһіᥒᥲ.'
 
 global.banner = 'https://stellarwa.xyz/files/1757377941018.jpeg'
 global.icon = 'https://stellarwa.xyz/files/1757378468505.jpeg'

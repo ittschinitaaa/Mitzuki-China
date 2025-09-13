@@ -54,7 +54,7 @@ let handler = async (m, { conn, usedPrefix }) => {
   }, { quoted: m })
 }
 
-handler.command = ['menu',`help`]
+handler.command = ['menuowner',`helpowner`,`menu2`]
 handler.owner = true
 export default handler
 

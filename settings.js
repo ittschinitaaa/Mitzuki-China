@@ -12,7 +12,7 @@ global.bot = '⏤͟͟͞͞𝐋ᥙᥒᥲ 𝐁ot ★'
 global.packname = '⏤͟͞ू⃪ 𝐋𝕌𝐍𝔸 𝐁𝕆𝐓 𑁯★ᰍ'
 global.wm = '⏤͟͞ू⃪ 𝐋𝕌𝐍𝔸 𝐁𝕆𝐓 𑁯★ᰍ'
 global.author = '🔥 𝕮𝖍𝖎𝖓𝖆'
-global.dev = '© ⍴᥆ᥕᥱrᥱძ ᑲᥡ ᥴһіᥒᥲ.'
+global.dev = '© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴄʜɪɴᴀ 🔥'
 
 global.banner = 'https://files.catbox.moe/if757e.jpg'
 global.icon = 'https://stellarwa.xyz/files/1757378468505.jpeg'

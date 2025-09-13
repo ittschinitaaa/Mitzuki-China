@@ -14,9 +14,9 @@ global.wm = '⏤͟͞ू⃪ 𝐋𝕌𝐍𝔸 𝐁𝕆𝐓 𑁯★ᰍ'
 global.author = '🔥 𝕮𝖍𝖎𝖓𝖆'
 global.dev = '© ⍴᥆ᥕᥱrᥱძ ᑲᥡ ᥴһіᥒᥲ.'
 
-global.banner = 'https://stellarwa.xyz/files/1757377941018.jpeg'
+global.banner = 'https://files.catbox.moe/if757e.jpg'
 global.icon = 'https://stellarwa.xyz/files/1757378468505.jpeg'
-global.currency = 'CryptoCoins'
+global.currency = 'StarCoins'
 global.sessions = 'sessions/session-bot'
 global.jadi = 'sessions/session-sub'
 

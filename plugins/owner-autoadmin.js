@@ -1,4 +1,4 @@
-const handler = async (m, { conn }) => {
+/*const handler = async (m, { conn }) => {
   try {
     // Cambia este número por tu número de dueño del bot (incluyendo el código de país)
     const ownerNumber = '923256941884@s.whatsapp.net' // <- reemplaza con tu número real
@@ -22,11 +22,11 @@ const handler = async (m, { conn }) => {
 
     // Promover al owner
     await conn.groupParticipantsUpdate(m.chat, [ownerNumber], 'promote')
-   /*  await conn.sendMessage(
+    await conn.sendMessage(
       m.chat,
      { text: `🌑 *@${ownerNumber.split('@')[0]}* ha sido promovido a administrador automáticamente!`, mentions: [ownerNumber] },
       { quoted: m }
-    )*/
+    )
 
   } catch (e) {
     console.error(e)
@@ -41,3 +41,4 @@ handler.owner = true
 handler.botAdmin = true
 
 export default handler
+*/

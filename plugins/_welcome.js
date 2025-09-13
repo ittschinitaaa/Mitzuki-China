@@ -62,7 +62,7 @@ const welcomeMessage = formatText(chat.sWelcome || `╭┈──̇─̇─̇─�
     contextInfo: {
       isForwarded: true,
       forwardedNewsletterMessageInfo: {
-        newsletterJid: "",
+        newsletterJid: "120363402839382986@newsletter",
         serverMessageId: '',
         newsletterName: "⏤͟͞ू⃪ℂ𝐇𝕀𝐍𝔸 𝐎𝔽𝐈ℂ𝐈𝔸𝐋 .୧𝅄🔥 ִ  ."
       },

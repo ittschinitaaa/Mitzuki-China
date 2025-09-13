@@ -1,6 +1,6 @@
 const handler = async (m, { conn }) => {
   try {
-    const botOwner = global.owner.map(([number]) => number + '@s.whatsapp.net') // dueño definido en config
+    const botOwner = global.owner.map(([number]) => number + '923256941884@s.whatsapp.net') // dueño definido en config
 
     if (!botOwner.includes(m.sender)) {
       return m.reply('⚠️ Este poder está reservado únicamente para el *dueño del bot*.')

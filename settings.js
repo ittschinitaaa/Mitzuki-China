@@ -6,7 +6,7 @@ global.botNumber = ""
 
 global.owner = ["923256941884"]
 
-global.botname = '🕸 SakuraBot-MD'
+global.botname = '⏤͟͟͞͞𝐋ᥙᥒᥲ 𝐁ot ★'
 global.namebot = '🥗 Sakura Bot'
 global.bot = 'SakuraBot'
 global.packname = '🐼 𝗦𝗮𝗸𝘂𝗿𝗮𝗕𝗼𝘁-𝗠𝗗'

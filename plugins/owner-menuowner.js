@@ -55,6 +55,7 @@ let handler = async (m, { conn, usedPrefix }) => {
 }
 
 handler.command = ['menu',`help`]
+handler.owner = true
 export default handler
 
 // Función para mostrar horas/min/seg

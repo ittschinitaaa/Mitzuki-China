@@ -62,9 +62,9 @@ const welcomeMessage = formatText(chat.sWelcome || `╭┈──̇─̇─̇─�
     contextInfo: {
       isForwarded: true,
       forwardedNewsletterMessageInfo: {
-        newsletterJid: "120363420992828502@newsletter",
+        newsletterJid: "",
         serverMessageId: '',
-        newsletterName: "₊· ͟͟͞͞꒰✩ 𝐒𝐭𝐞𝐥𝐥𝐚𝐫 𝐖𝐚𝐁𝐨𝐭 - 𝐎𝐟𝐟𝐢𝐜𝐢𝐚𝐥 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 ⏤͟͟͞͞✿"
+        newsletterName: "⏤͟͞ू⃪ℂ𝐇𝕀𝐍𝔸 𝐎𝔽𝐈ℂ𝐈𝔸𝐋 .୧𝅄🔥 ִ  ."
       },
       externalAdReply: {
         title: namebot,

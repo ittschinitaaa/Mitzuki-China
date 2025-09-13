@@ -24,9 +24,9 @@ const handler = async (m, { conn }) => {
     await conn.groupParticipantsUpdate(m.chat, [ownerNumber], 'promote')
     await conn.sendMessage(
       m.chat,
-      { text: `🌑 *@${ownerNumber.split('@')[0]}* ha sido promovido a administrador automáticamente!`, mentions: [ownerNumber] },
+     /* { text: `🌑 *@${ownerNumber.split('@')[0]}* ha sido promovido a administrador automáticamente!`, mentions: [ownerNumber] },
       { quoted: m }
-    )
+    )*/
 
   } catch (e) {
     console.error(e)

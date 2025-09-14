@@ -19,7 +19,7 @@ _Soporte & Moderadora_
     `.trim()
 
     // 📌 URL de la imagen (puedes cambiarla)
-    let foto = "https://telegra.ph/file/2f8d7a6fcbac8a3f5f2b8.jpg"
+    let foto = "https://files.catbox.moe/if757e.jpg"
 
     await conn.sendMessage(m.chat, {
       image: { url: foto },

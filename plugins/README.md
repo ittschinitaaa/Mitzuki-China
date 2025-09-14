@@ -1,4 +1,4 @@
-# 🌙 Plugins de LunaBot
+## `𝐋𝐔𝐍𝐀 𝐁𝐎𝐓 𝐂𝐎𝐌𝐌𝐀𝐍𝐃𝐒`
 
 ![LunaBot Banner](https://telegra.ph/file/2f8d7a6fcbac8a3f5f2b8.jpg)
 

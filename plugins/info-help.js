@@ -9,14 +9,14 @@ let handler = async (m, { conn, args, usedPrefix }) => {
 
     const cmdsList = commands
     let now = new Date()
-    let colombianTime = new Date(now.toLocaleString('en-US', { timeZone: 'América/Argentina' }))
+    let colombianTime = new Date(now.toLocaleString('en-US', { timeZone: 'América/Buenos-Aires' }))
     let tiempo = colombianTime.toLocaleDateString('en-GB', {
       day: '2-digit',
       month: 'short',
       year: 'numeric', 
     }).replace(/,/g, '')
 
-    let tiempo2 = moment.tz('América/Argentina').format('hh:mm A')
+    let tiempo2 = moment.tz('América/Buenos-Aires').format('hh:mm A')
 
     let sessionFolder = './plugins'
     let subSessions = fs.existsSync(sessionFolder) ? fs.readdirSync(sessionFolder) : []
@@ -26,7 +26,7 @@ let handler = async (m, { conn, args, usedPrefix }) => {
 
     let botType = isOficialBot ? 'Principal' : 'Sub-Bot'
 
-const jam = moment.tz('América/Argentina').locale('id').format('HH:mm:ss')
+const jam = moment.tz('América/Buenos-Aires').locale('id').format('HH:mm:ss')
 const ucapan = jam < '05:00:00' ? 'Buen día' : jam < '11:00:00' ? 'Buen día' : jam < '15:00:00' ? 'Buenas tardes' : jam < '18:00:00' ? 'Buenas tardes' : jam < '19:00:00' ? 'Buenas tardes' : jam < '23:59:00' ? 'Buenas noches' : 'Buenas noches';
 
 let menu = `\n\n`

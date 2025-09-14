@@ -191,7 +191,7 @@ let chtxt = ` ֯　ׅ🫗ֶ֟ㅤ *Usuario ›* ${userName}
  ׄ 🎋 ׅ り *Método de conexión ›* ${method}
  ׄ 🌱 ׅ り *Browser ›* Firefox (Windows)
  ׄ 🍁 ׅ り *WhatsApp ›* ${waType}
- ׄ 🌾 ׅ り *Visita ›* api.stellarwa.xyz
+ ׄ 🌾 ׅ り *Visita ›* 
  ׄ 🌿 ׅ り *Bot ›* ${wm}
  ׄ 🥗 ׅ り *Versión del bot ›* ^0.0.9
 

@@ -1,40 +1,35 @@
-
 import fs from 'fs'
-import os from 'os'
-import { performance } from 'perf_hooks'
 
-let handler = async (m, { conn, usedPrefix }) => {
+let handler = async (m, { conn }) => {
   
   // Imagen que saldrá en la tarjeta
-  let media = 'https://files.catbox.moe/if757e.jpg' // cambia el link por tu foto
-  
-  /*Tiempo activo
-  let uptime = process.uptime() * 1000
-  let tiempo = clockString(uptime)*/
-  
-  // Texto del menú
-  let menu = `
-Staff oficial de Luna bot
+  let media = 'https://files.catbox.moe/if757e.jpg' // cambia por la tuya
 
+  // Texto que aparecerá en la tarjeta
+  let menu = `
+Staff oficial de Luna Bot
 `
 
-  // Enviar tarjeta con imagen y texto del menú
+  // Enviar mensaje simulando que viene de un canal
   await conn.sendMessage(m.chat, {
     text: menu,
     contextInfo: {
+      forwardingScore: 999,  // indica que es reenviado
+      isForwarded: true,     // marca como reenviado
       externalAdReply: {
-        title:`⏤͟͞ू⃪ 𝐂𝕆𝐋𝔸𝐁𝕆𝐑𝔸𝐃𝕆𝐑𝔼𝐒 𝕆𝐅𝕀𝐂𝕀𝐀𝕃𝐄𝕊`,
-        body: '⏤͟͟͞͞𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 𝐂𝐡𝐢𝐧𝐚 🔥',
-        thumbnailUrl: media,
-        sourceUrl: 'https://github.com/ittschinitaaa', // pon tu enlace
-        mediaType: 1,
+        title: "Canal Oficial de Luna Bot",          // Título que se muestra
+        body: "¡Colaboradores Oficiales!",           // Texto pequeño debajo del título
+        thumbnailUrl: media,                          // Imagen de miniatura
+        sourceUrl: 'https://wa.me/+1234567890',      // Enlace de tu canal/newsletter
+        mediaType: 2,                                 // Botón "Ver canal"
+        showAdAttribution: true,
         renderLargerThumbnail: true
       }
     }
   }, { quoted: m })
 }
 
-handler.command = ['staff',`colaboradores`]
+handler.command = ['staff', 'colaboradores']
 handler.owner = true
 export default handler
 

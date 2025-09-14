@@ -23,7 +23,7 @@ Staff oficial de Luna bot
     text: menu,
     contextInfo: {
       externalAdReply: {
-        title:`⏤͟͞ू⃪ 𝐋𝕌𝐍𝔸 𝐁𝕆𝐓 𑁯★ᰍ`,
+        title:`⏤͟͞ू⃪ 𝐂𝕆𝐋𝔸𝐁𝕆𝐑𝔸𝐃𝕆𝐑𝔼𝐒 𝕆𝐅𝕀𝐂𝕀𝐀𝕃𝐄𝕊`,
         body: '⏤͟͟͞͞𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 𝐂𝐡𝐢𝐧𝐚 🔥',
         thumbnailUrl: media,
         sourceUrl: 'https://github.com/ittschinitaaa', // pon tu enlace

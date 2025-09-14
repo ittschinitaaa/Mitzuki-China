@@ -20,7 +20,7 @@ Staff oficial de Luna Bot
         title: "Canal Oficial de Luna Bot",          // Título que se muestra
         body: "¡Colaboradores Oficiales!",           // Texto pequeño debajo del título
         thumbnailUrl: media,                          // Imagen de miniatura
-        sourceUrl: 'https://wa.me/+1234567890',      // Enlace de tu canal/newsletter
+        sourceUrl: '120363402839382986@newsletter',      // Enlace de tu canal/newsletter
         mediaType: 2,                                 // Botón "Ver canal"
         showAdAttribution: true,
         renderLargerThumbnail: true

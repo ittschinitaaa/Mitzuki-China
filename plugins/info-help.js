@@ -16,7 +16,7 @@ let handler = async (m, { conn, args, usedPrefix }) => {
       year: 'numeric', 
     }).replace(/,/g, '')
 
-    let tiempo2 = moment.tz('America/Bogota').format('hh:mm A')
+    let tiempo2 = moment.tz('América/Argentina').format('hh:mm A')
 
     let sessionFolder = './plugins'
     let subSessions = fs.existsSync(sessionFolder) ? fs.readdirSync(sessionFolder) : []

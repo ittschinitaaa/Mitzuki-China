@@ -17,8 +17,8 @@ Staff oficial de Luna Bot
       forwardingScore: 999,  // indica que es reenviado
       isForwarded: true,     // marca como reenviado
       externalAdReply: {
-        title: "Canal Oficial de Luna Bot",          // Título que se muestra
-        body: "¡Colaboradores Oficiales!",           // Texto pequeño debajo del título
+        title: "⏤͟͞ू⃪𝐂𝕆𝐋𝔸𝐁𝕆𝐑𝔸𝐃𝕆𝐑𝔼𝐒 𑁯👑ᰍ",          // Título que se muestra
+        body: "⏤͟͟͞͞𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 𝐂𝐡𝐢𝐧𝐚 🔥",           // Texto pequeño debajo del título
         thumbnailUrl: media,                          // Imagen de miniatura
         sourceUrl: '120363402839382986@newsletter',      // Enlace de tu canal/newsletter
         mediaType: 2,                                 // Botón "Ver canal"

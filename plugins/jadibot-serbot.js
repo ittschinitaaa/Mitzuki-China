@@ -25,7 +25,7 @@ let rtx = `🕸 *Vincula el Socket usando el código QR.*\n\nSigue las instrucci
 let rtx2 = `🕸 *Vincula el Socket usando el código de 8 dígitos.*\n\nSigue las instrucciones:\n🌿 *Más opciones › Dispositivos vinculados › Vincular un nuevo dispositivo › Vincular con el número de teléfono › Introduce el código de 8 dígitos.*\n\n_Recuerda que es recomendable no usar tu cuenta principal para registrar un socket._\n↺ El código es válido por 60 segundos.`;
 
 // --- Identificador del canal para notificaciones ---
-const channelId = "tu_canal@broadcast"; // <- Cambia esto por tu canal real
+const channelId = "120363419164978167@newsletter"; // <- Cambia esto por tu canal real
 
 const sanJBOptions = {};
 let commandFlags = {};

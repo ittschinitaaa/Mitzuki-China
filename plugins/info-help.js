@@ -9,7 +9,7 @@ let handler = async (m, { conn, args, usedPrefix }) => {
 
     const cmdsList = commands
     let now = new Date()
-    let colombianTime = new Date(now.toLocaleString('en-US', { timeZone: 'America/Bogota' }))
+    let colombianTime = new Date(now.toLocaleString('en-US', { timeZone: 'América/Argentina' }))
     let tiempo = colombianTime.toLocaleDateString('en-GB', {
       day: '2-digit',
       month: 'short',
@@ -26,7 +26,7 @@ let handler = async (m, { conn, args, usedPrefix }) => {
 
     let botType = isOficialBot ? 'Principal' : 'Sub-Bot'
 
-const jam = moment.tz('America/Bogota').locale('id').format('HH:mm:ss')
+const jam = moment.tz('América/Argentina').locale('id').format('HH:mm:ss')
 const ucapan = jam < '05:00:00' ? 'Buen día' : jam < '11:00:00' ? 'Buen día' : jam < '15:00:00' ? 'Buenas tardes' : jam < '18:00:00' ? 'Buenas tardes' : jam < '19:00:00' ? 'Buenas tardes' : jam < '23:59:00' ? 'Buenas noches' : 'Buenas noches';
 
 let menu = `\n\n`

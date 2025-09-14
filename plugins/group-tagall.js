@@ -2,8 +2,8 @@ const handler = async (m, { conn }) => {
   try {
     const groupMetadata = await conn.groupMetadata(m.chat)
     const participantes = groupMetadata.participants.map(u => u.id)
-    let mensaje = `🌙 *Invocación de todos los miembros del grupo* 🌙\n\n`
-    mensaje += participantes.map((u, i) => `✨ ${i + 1}. @${u.split('@')[0]}`).join('\n')
+    let mensaje = `﹒⌗﹒𝐌𝔼𝐍ℂ𝐈𝕆𝐍 𝔾𝐄ℕ𝐄ℝ𝐀𝕃 .ৎ˚₊‧ \n\n`
+    mensaje += participantes.map((u, i) => `- 🌿ᩧ　ׅ　ׄ　⁞⁞ ⏤͟͟͞͞@${u.split('@')[0]}`).join('\n')
     mensaje += `\n\n🕸 *Total:* ${participantes.length} miembros.`
 
     await conn.sendMessage(m.chat, { text: mensaje, mentions: participantes }, { quoted: m })

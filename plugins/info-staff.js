@@ -1,6 +1,15 @@
 import fs from 'fs'
 
 let handler = async (m, { conn }) => {
+    let menu = `
+    「☆」Comando no disponible.`
+
+handler.command = ['staff', 'colaboradores']
+handler.owner = true
+export default handler
+/*import fs from 'fs'
+
+let handler = async (m, { conn }) => {
   
   // Imagen que saldrá en la tarjeta
   let media = 'https://files.catbox.moe/if757e.jpg' // cambia por la tuya
@@ -52,7 +61,7 @@ https://github.com/danielalejandrobasado-glitch
 
 handler.command = ['staff', 'colaboradores']
 handler.owner = true
-export default handler
+export default handler*/
 
 /*Función para mostrar horas/min/seg
 function clockString(ms) {

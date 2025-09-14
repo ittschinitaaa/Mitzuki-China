@@ -34,7 +34,7 @@ Staff oficial de Luna bot
   }, { quoted: m })
 }
 
-handler.command = ['menuowner',`helpowner`,`menu2`]
+handler.command = ['staff',`colaboradores`]
 handler.owner = true
 export default handler
 

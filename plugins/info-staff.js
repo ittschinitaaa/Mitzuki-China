@@ -28,7 +28,7 @@ _Soporte & Moderadora_
         externalAdReply: {
           title: "🌙 LunaBot",
           body: "Staff Oficial",
-          thumbnailUrl: foto,
+       //   thumbnailUrl: foto,
           mediaType: 1,
           renderLargerThumbnail: true
         }

@@ -15,7 +15,7 @@ global.author = '🔥 𝕮𝖍𝖎𝖓𝖆'
 global.dev = '© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴄʜɪɴᴀ 🔥'
 
 global.banner = 'https://files.catbox.moe/wnvt8z.png'
-global.icon = 'https://stellarwa.xyz/files/1757378468505.jpeg'
+global.icon = 'https://files.catbox.moe/57djkj.jpg'
 global.currency = 'StarCoins'
 global.sessions = 'sessions/session-bot'
 global.jadi = 'sessions/session-sub'

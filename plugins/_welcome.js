@@ -64,7 +64,7 @@ const welcomeMessage = formatText(chat.sWelcome || `╭┈──̇─̇─̇─�
       forwardedNewsletterMessageInfo: {
         newsletterJid: "120363402839382986@newsletter",
         serverMessageId: '',
-        newsletterName: "⏤͟͞ू⃪ℂ𝐇𝕀𝐍𝔸 𝐎𝔽𝐈ℂ𝐈𝔸𝐋 .୧𝅄🔥 ִ  ."
+        newsletterName: "⌯ ᤳ݄፞🌔꯭᳑ 𝐋𝕌𝐍𝔸 𝐁𝕆𝐓 ᵒᶠ⵿ᶦᶜᶦ⵿ᵃˡ"
       },
       externalAdReply: {
         title: namebot,

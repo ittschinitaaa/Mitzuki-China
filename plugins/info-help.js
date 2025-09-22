@@ -39,7 +39,7 @@ menu += `│ ✐ ꒷ꕤ🇨🇳ദ ɪɴsᴛᴀɢʀᴀᴍ ෴\n`
 menu += `│ https://www.instagram.com/its.chinitaaa_\n`
 menu += `│ ✐ ᴛɪᴘᴏ ʙᴏᴛ: ${botType}\n`
 menu += `╰━━━━━━━━━━\n\n`
-menu += `> "Muchas copias, Pero ninguna como la original." 💋\n\n`
+menu += `> "Muchas copias, Pero ninguna como la original." 💋\n`
     const categoryArg = args[0]?.toLowerCase();
     const categories = {};
 

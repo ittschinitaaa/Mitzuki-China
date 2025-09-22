@@ -34,7 +34,7 @@ let { say } = cfonts
 
 console.log(chalk.magentaBright('\nIniciando...'))
 
-say('Luna Bot', {
+say('China-Mitzuki', {
   font: 'simple',
   align: 'left',
   gradient: ['green', 'white']

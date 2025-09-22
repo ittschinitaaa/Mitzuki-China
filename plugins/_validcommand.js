@@ -27,16 +27,16 @@ export async function before(m, { groupMetadata }) {
   if (command === 'mute') return;
   if (chat.bannedGrupo && !owner) return
 
-/*try {
+try {
 let chtxt = ` ֯　ׅ🫗ֶ֟ㅤ *Usuario ›* ${m.pushName}
 
  ׄ 🎋 ׅ り *Comando usado ›* ${command}
  ׄ 🌾 ׅ り *Visita ›* api.stellarwa.xyz
  ׄ 🌿 ׅ り *Bot ›* ${wm}
- ׄ 🥗 ׅ り *Versión del bot ›* ^0.0.9`
+ ׄ 🥗 ׅ り *Versión del bot ›* ^1.0.0`
 
 let ppch = await this.profilePictureUrl(m.sender, 'image').catch(_ => "https://stellarwa.xyz/files/1757206448404.jpeg")
-global.conn.sendMessage(my.ch5, { text: chtxt,
+global.conn.sendMessage(my.ch2, { text: chtxt,
 contextInfo: { 
 externalAdReply: {
 title: "🕸 𝗜𝗡𝗙𝗢𝗥𝗠𝗔𝗖𝗜𝗢́𝗡 🕸",

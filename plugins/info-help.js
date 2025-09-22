@@ -30,12 +30,16 @@ const jam = moment.tz('America/Argentina/Buenos_Aires').locale('id').format('HH:
 const ucapan = jam < '05:00:00' ? 'Buen día' : jam < '11:00:00' ? 'Buen día' : jam < '15:00:00' ? 'Buenas tardes' : jam < '18:00:00' ? 'Buenas tardes' : jam < '19:00:00' ? 'Buenas tardes' : jam < '23:59:00' ? 'Buenas noches' : 'Buenas noches';
 
 let menu = `\n\n`
-menu += `> . ﹡ ﹟ 🌕 ׄ ⬭ ${ucapan}  *${m.pushName ? m.pushName : 'Sin nombre'}*\n\n`
-menu += `ׅㅤꨶ〆⁾ ㅤׄㅤ⸼ㅤׄ *͜🪐* ㅤ֢ㅤ⸱ㅤᯭִ\n`
-menu += `ׅㅤ𓏸𓈒ㅤׄ *Plugins ›* ${plugins}\n`
-menu += `ׅㅤ𓏸𓈒ㅤׄ *Versión ›* 1.0.0 (beta) ⋆.˚\n`
-menu += `ׅㅤ𓏸𓈒ㅤׄ *Fecha ›* ${tiempo}, ${tiempo2}\n`
-menu += `𓏸𓈒ㅤׄ *tipo  ›*  ${botType}\n`
+    
+menu += `*¡𝙃𝙤𝙡𝙖!, 𝙎𝙤𝙮 𝕮𝖍𝖎𝖓𝖆 - 𝕸𝖎𝖙𝖟𝖚𝖐𝖎 🔥🇨🇳* \n`
+menu += `Aǫᴜɪ ᴇsᴛᴀ ʟᴀ ʟɪsᴛᴀ ᴅᴇ ᴄᴏᴍᴀɴᴅᴏs: \n`
+menu += `╭┈ ↷\n`
+menu += `│ ✐ 𝓓𝓮𝓿𝓮𝓵𝓸𝓹𝓮𝓭 𝓫𝔂  𝑪𝑯𝑰𝑁𝑰𝑻𝑨 | ᵒᶠᶦᶜᶦᵃˡ\n`
+menu += `│ ✐ ꒷ꕤ🇨🇳ദ ɪɴsᴛᴀɢʀᴀᴍ ෴\n`
+menu += `│ https://www.instagram.com/its.chinitaaa_\n`
+menu += `│ ✐ ᴛɪᴘᴏ ʙᴏᴛ: ${botType}\n`
+menu += `╰━━━━━━━━━━\n\n`
+menu += `> "Muchas copias, Pero ninguna como la original." 💋\n\n`
     const categoryArg = args[0]?.toLowerCase();
     const categories = {};
 
@@ -56,7 +60,7 @@ menu += `𓏸𓈒ㅤׄ *tipo  ›*  ${botType}\n`
         continue;
       }
       const catName = category.charAt(0).toUpperCase() + category.slice(1)
-      menu += `\nㅤ⏤͟͟͞͞🌟̫֠͢⁾ ㅤׄ  ꤥㅤׄㅤꤪꤨ${catName}ㅤꤪꤨㅤ֢ㅤׄㅤׅ\n`
+      menu += `\nㅤ╭ֹ┈ ⵿❀⵿ ${catName} \n`
       cmds.forEach(cmd => {
       const match = usedPrefix.match(/[#\/+.!-]$/);
 const separator = match ? match[0] : '';
@@ -64,7 +68,7 @@ const separator = match ? match[0] : '';
       const aliases = cmd.alias.map(a => {
   const aliasClean = a.split(/[\/#!+.\-]+/).pop().toLowerCase();
       return `${cleanPrefix}${aliasClean}`}).join(' › ');
-        menu += `⏤͟͟͞͞🌖֠͢ㅤ *${aliases}* ${cmd.uso ? `+ ${cmd.uso}` : ''}\n`;
+        menu += `❐*${aliases}* ${cmd.uso ? `+ ${cmd.uso}` : ''}\n`;
         menu += `> _*${cmd.desc}*_\n`;
       });
     }
@@ -85,7 +89,7 @@ const channelRD = canales[Math.floor(Math.random() * canales.length)]
 
  await conn.sendMessage(m.chat, {
 document: await (await fetch(banner)).buffer(),
-fileName: '^1.0.0 (beta) | Lastest 🌱',
+fileName: '^1.0.0  | Lastest 🇨🇳',
 mimetype: "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
 fileLength: '0',
 pageCount: '1',

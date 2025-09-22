@@ -68,7 +68,7 @@ const separator = match ? match[0] : '';
       const aliases = cmd.alias.map(a => {
   const aliasClean = a.split(/[\/#!+.\-]+/).pop().toLowerCase();
       return `${cleanPrefix}${aliasClean}`}).join(' › ');
-        menu += `❐*${aliases}* ${cmd.uso ? `+ ${cmd.uso}` : ''}\n`;
+        menu += `❐ *${aliases}* ${cmd.uso ? `+ ${cmd.uso}` : ''}\n`;
         menu += `> _*${cmd.desc}*_\n`;
       });
     }

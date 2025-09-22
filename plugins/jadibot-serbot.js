@@ -188,12 +188,12 @@ const userName = sock.authState.creds.me.name || global.db.data.users[m.sender].
 
 let chtxt = ` ֯　ׅ🫗ֶ֟ㅤ *Usuario ›* ${userName}
 
- ׄ 🎋 ׅ り *Método de conexión ›* ${method}
- ׄ 🌱 ׅ り *Browser ›* Firefox (Windows)
- ׄ 🍁 ׅ り *WhatsApp ›* ${waType}
- ׄ 🌾 ׅ り *Visita ›* instagram.com/its.chinitaaa_
- ׄ 🌿 ׅ り *Bot ›* ${wm}
- ׄ 🥗 ׅ り *Versión del bot ›* ^1.0.0
+ ׄ 🔥 ׅ り *Método de conexión ›* ${method}
+ ׄ 🇨🇳 ׅ り *Browser ›* Firefox (Windows)
+ ׄ 🔥 ׅ り *WhatsApp ›* ${waType}
+ ׄ 🇨🇳 ׅ り *Visita ›* instagram.com/its.chinitaaa_
+ ׄ 🔥 ׅ り *Bot ›* ${wm}
+ ׄ 🇨🇳 ׅ り *Versión del bot ›* ^1.0.0
 
 > *¡Conviértete en un sub-bot ahora, únete al canal oficial!*\nhttps://whatsapp.com/channel/0029Vb6GYInD8SDuyzHk3f3l`
 
@@ -202,7 +202,7 @@ await global.conn.sendMessage(my.ch2, { text: chtxt,
 contextInfo: { 
 externalAdReply: {
 title: "🔥 𝗜𝗡𝗙𝗢𝗥𝗠𝗔𝗖𝗜𝗢́𝗡 𝗚𝗘𝗡𝗘𝗥𝗔𝗟 🔥",
-body: '💋 ¡Nuevo sub-bot encontrado! 💋',
+body: '💋 ¡𝙉𝙪𝙚𝙫𝙤 𝙎𝙪𝙗-𝘽𝙤𝙩 𝙘𝙤𝙣𝙚𝙘𝙩𝙖𝙙𝙤! 💋',
 thumbnailUrl: ppch,
 sourceUrl: redes,
 mediaType: 2,
@@ -212,7 +212,7 @@ renderLargerThumbnail: false
 } catch {
 console.log(chalk.gray('[ 🐼  ]  Error al enviar el mensaje al canal.'))
 }
-await conn.sendMessage(m.chat, {text: `🕸 Vinculaste con éxito un nuevo *Sub Bot*` }, { quoted: m })
+await conn.sendMessage(m.chat, {text: `*[𝐒𝐔𝐁-𝐁𝐎𝐓 𝐂𝐎𝐍𝐄𝐂𝐓𝐀𝐃𝐎 𝐂𝐎𝐍 𝐄𝐗𝐈𝐓𝐎]*\n> 𝐀𝐡𝐨𝐫𝐚 𝐟𝐨𝐫𝐦𝐚𝐬 𝐩𝐚𝐫𝐭𝐞 𝐝𝐞 𝐥𝐚 𝐟𝐚𝐦𝐢𝐥𝐢𝐚 𝐝𝐞 *𝐒𝐮𝐛-𝐁𝐨𝐭𝐬.*` }, { quoted: m })
 delete commandFlags[m.sender]
 }
 

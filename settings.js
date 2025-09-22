@@ -6,12 +6,12 @@ global.botNumber = ""
 
 global.owner = ["923256941884"]
 
-global.botname = '⏤͟͞ू⃪ 𝐋𝕌𝐍𝔸 𝐁𝕆𝐓 𑁯★ᰍ'
-global.namebot = '⏤͟͞ू⃪ 𝐋𝕌𝐍𝔸 𝐁𝕆𝐓 𑁯★ᰍ'
+global.botname = '𝕮𝖍𝖎𝖓𝖆 - 𝕸𝖎𝖙𝖟𝖚𝖐𝖎 🔥🇨🇳'
+global.namebot = '𝕮𝖍𝖎𝖓𝖆 - 𝕸𝖎𝖙𝖟𝖚𝖐𝖎 🔥🇨🇳'
 global.bot = '⏤͟͟͞͞𝐋ᥙᥒᥲ 𝐁ot ★'
-global.packname = '⏤͟͞ू⃪ 𝐋𝕌𝐍𝔸 𝐁𝕆𝐓 𑁯★ᰍ'
-global.wm = '⏤͟͞ू⃪ 𝐋𝕌𝐍𝔸 𝐁𝕆𝐓 𑁯★ᰍ'
-global.author = '🔥 𝕮𝖍𝖎𝖓𝖆'
+global.packname = '𝕮𝖍𝖎𝖓𝖆 - 𝕸𝖎𝖙𝖟𝖚𝖐𝖎 🔥🇨🇳'
+global.wm = '𝕮𝖍𝖎𝖓𝖆 - 𝕸𝖎𝖙𝖟𝖚𝖐𝖎 🔥🇨🇳'
+global.author = '𝕮𝖍𝖎𝖓𝖆 🔥💋'
 global.dev = '© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴄʜɪɴᴀ 🔥'
 
 global.banner = 'https://files.catbox.moe/wnvt8z.png'

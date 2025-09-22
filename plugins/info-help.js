@@ -60,7 +60,7 @@ menu += `> "Muchas copias, Pero ninguna como la original." 💋\n\n`
         continue;
       }
       const catName = category.charAt(0).toUpperCase() + category.slice(1)
-      menu += `\nㅤ╭ֹ┈ ⵿❀⵿ ${catName} \n`
+      menu += `╭ֹ┈ ⵿❀⵿ ${catName} \n`
       cmds.forEach(cmd => {
       const match = usedPrefix.match(/[#\/+.!-]$/);
 const separator = match ? match[0] : '';

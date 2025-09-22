@@ -193,16 +193,16 @@ let chtxt = ` ֯　ׅ🫗ֶ֟ㅤ *Usuario ›* ${userName}
  ׄ 🍁 ׅ り *WhatsApp ›* ${waType}
  ׄ 🌾 ׅ り *Visita ›* instagram.com/its.chinitaaa_
  ׄ 🌿 ׅ り *Bot ›* ${wm}
- ׄ 🥗 ׅ り *Versión del bot ›* ^0.0.9
+ ׄ 🥗 ׅ り *Versión del bot ›* ^1.0.0
 
 > *¡Conviértete en un sub-bot ahora, únete al canal oficial!*\nhttps://whatsapp.com/channel/0029Vb6GYInD8SDuyzHk3f3l`
 
 let ppch = await sock.profilePictureUrl(m.sender, 'image').catch(_ => "https://stellarwa.xyz/files/1757206448404.jpeg")
-await global.conn.sendMessage(my.ch3, { text: chtxt,
+await global.conn.sendMessage(my.ch2, { text: chtxt,
 contextInfo: { 
 externalAdReply: {
-title: "⭐ 𝗜𝗡𝗙𝗢𝗥𝗠𝗔𝗖𝗜𝗢́𝗡 ⭐",
-body: '🐼 ¡Nuevo sub-bot encontrado!',
+title: "🔥 𝗜𝗡𝗙𝗢𝗥𝗠𝗔𝗖𝗜𝗢́𝗡 𝗚𝗘𝗡𝗘𝗥𝗔𝗟 🔥",
+body: '💋 ¡Nuevo sub-bot encontrado! 💋',
 thumbnailUrl: ppch,
 sourceUrl: redes,
 mediaType: 2,

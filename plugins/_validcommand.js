@@ -49,7 +49,7 @@ renderLargerThumbnail: false
 }}}, { quoted: null }) 
 } catch (e) {
 console.log(`[ 🐼  ]  Error al enviar el mensaje al canal.\n[ 🕸  ]  ${e}`)
-}*/
+}
 
   if (validCommand(command, globalThis.plugins)) {
   } else {

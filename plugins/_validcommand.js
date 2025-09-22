@@ -30,17 +30,17 @@ export async function before(m, { groupMetadata }) {
 try {
 let chtxt = ` ֯　ׅ🫗ֶ֟ㅤ *Usuario ›* ${m.pushName}
 
- ׄ 🎋 ׅ り *Comando usado ›* ${command}
- ׄ 🌾 ׅ り *Visita ›* api.stellarwa.xyz
- ׄ 🌿 ׅ り *Bot ›* ${wm}
- ׄ 🥗 ׅ り *Versión del bot ›* ^1.0.0`
+ ׄ 🔥 ׅ り *Comando usado ›* ${command}
+ ׄ 💋 ׅ り *Visita ›* instagram.com/its.chinitaaa_
+ ׄ 🔥 ׅ り *Bot ›* ${wm}
+ ׄ 💋 ׅ り *Versión del bot ›* ^1.0.0`
 
 let ppch = await this.profilePictureUrl(m.sender, 'image').catch(_ => "https://stellarwa.xyz/files/1757206448404.jpeg")
 global.conn.sendMessage(my.ch2, { text: chtxt,
 contextInfo: { 
 externalAdReply: {
-title: "🕸 𝗜𝗡𝗙𝗢𝗥𝗠𝗔𝗖𝗜𝗢́𝗡 🕸",
-body: '🐼 ¡Nuevo comando usado!',
+title: "🔥 𝗜𝗡𝗙𝗢𝗥𝗠𝗔𝗖𝗜𝗢́𝗡 𝗚𝗘𝗡𝗘𝗥𝗔𝗟 🔥",
+body: '💋 ¡𝙉𝙪𝙚𝙫𝙤 𝙘𝙤𝙢𝙖𝙣𝙙𝙤 𝙪𝙨𝙖𝙙𝙤! 💋',
 thumbnailUrl: ppch,
 sourceUrl: redes,
 mediaType: 2,

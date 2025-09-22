@@ -73,7 +73,7 @@ let handler = async (m, { conn, participants, isROwner }) => {
 }
 
 handler.help = ['kickall']
-handler.tags = ['owner']
+handler.tags = ['grupo']
 handler.command = ['kickall', 'purga', 'expulsartodos']
 handler.group = true
 handler.rowner = true

@@ -14,7 +14,7 @@ global.wm = '𝕮𝖍𝖎𝖓𝖆 - 𝕸𝖎𝖙𝖟𝖚𝖐𝖎 🔥🇨🇳'
 global.author = '𝕮𝖍𝖎𝖓𝖆 🔥💋'
 global.dev = '© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴄʜɪɴᴀ 🔥'
 
-global.banner = 'https://files.catbox.moe/wnvt8z.png'
+global.banner = 'https://files.catbox.moe/bw463n.jpg'
 global.icon = 'https://files.catbox.moe/57djkj.jpg'
 global.currency = 'StarCoins'
 global.sessions = 'sessions/session-bot'
@@ -30,10 +30,10 @@ global.my = {
   name: '⏤͟͞ू⃪𝐁𝕃𝐔𝔼 𝐋𝕆𝐂𝕂 𝐂𝕃𝐔𝔹 𑁯🩵ᰍ',
 
   ch2: '120363402839382986@newsletter', 
-  name2: '⌯ ᤳ݄፞🌔꯭᳑ 𝐋𝕌𝐍𝔸 𝐁𝕆𝐓 ᵒᶠ⵿ᶦᶜᶦ⵿ᵃˡ',
+  name2: 'ᥴһіᥒᥲ mі𝗍zᥙkі • ᥆𝖿іᥴіᥲᥣ ᥴһᥲᥒᥒᥱᥣ',
 
   ch3: '120363419164978167@newsletter', 
-  name3: '⏤͟͞ू⃪𝐋𝕌𝐍𝔸 - 𝐓𝔼𝐒𝕋 ᵒᶠ⵿ᶦᶜᶦ⵿ᵃˡ 🌔',
+  name3: 'ᥴһіᥒᥲ mі𝗍zᥙkі • ᥆𝖿іᥴіᥲᥣ 𝗍ᥱs𝗍',
 }
 
 const file = fileURLToPath(import.meta.url)

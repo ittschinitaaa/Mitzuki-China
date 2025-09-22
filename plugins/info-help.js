@@ -56,7 +56,7 @@ menu += `ׅㅤ𓏸𓈒ㅤׄ *Fecha ›* ${tiempo}, ${tiempo2}\n`
         continue;
       }
       const catName = category.charAt(0).toUpperCase() + category.slice(1)
-      menu += `\nㅤ🍂ᯭ⁾ ㅤׄ  ꤥㅤׄㅤꤪꤨ${catName}ㅤꤪꤨㅤ֢ㅤׄㅤׅ\n`
+      menu += `\nㅤ╭ֹ┈ ⵿❀⵿ ${catName}\n`
       cmds.forEach(cmd => {
       const match = usedPrefix.match(/[#\/+.!-]$/);
 const separator = match ? match[0] : '';
@@ -64,7 +64,7 @@ const separator = match ? match[0] : '';
       const aliases = cmd.alias.map(a => {
   const aliasClean = a.split(/[\/#!+.\-]+/).pop().toLowerCase();
       return `${cleanPrefix}${aliasClean}`}).join(' › ');
-        menu += `֯　ׅ🍃ֶ֟፝֯ㅤ *${aliases}* ${cmd.uso ? `+ ${cmd.uso}` : ''}\n`;
+        menu += `❐ *${aliases}* ${cmd.uso ? `+ ${cmd.uso}` : ''}\n`;
         menu += `> _*${cmd.desc}*_\n`;
       });
     }

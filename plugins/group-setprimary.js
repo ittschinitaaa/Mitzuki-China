@@ -12,7 +12,7 @@ const handler = async (m, { conn }) => {
   const chat = globalThis.db.data.chats[m.chat]
   if (!who) return conn.reply(m.chat, `🕸 Por favor menciona un bot para convertirlo en primario.`, m)
 
-  if (!subBots.includes(who)) return conn.reply(m.chat, `🕸 El usuario mencionado no es un Socket de Sakura Bot.`, m)
+  if (!subBots.includes(who)) return conn.reply(m.chat, `🕸 El usuario mencionado no es un Socket de 𝕮𝖍𝖎𝖓𝖆 𝕸𝖎𝖙𝖟𝖚𝖐𝖎 💋🔥.`, m)
 
   if (chat.primaryBot === who) {
     return conn.reply(m.chat, `@${who.split`@`[0]} ya es el Bot principal del Grupo.`, m, { mentions: [who] });
@@ -20,7 +20,7 @@ const handler = async (m, { conn }) => {
 
   try {
     chat.primaryBot = who
-    conn.reply(m.chat, `🐼 Se ha establecido a @${who.split`@`[0]} como bot primario de este grupo.\n> Ahora todos los comandos de este grupo serán ejecutados por @${who.split`@`[0]}.`, m, { mentions: [who] })
+    conn.reply(m.chat, `✿ Se ha establecido a @${who.split`@`[0]} como bot primario de este grupo.\n> Ahora todos los comandos de este grupo serán ejecutados por @${who.split`@`[0]}.`, m, { mentions: [who] })
   } catch (e) {
     await m.reply(`${e}`);
   }

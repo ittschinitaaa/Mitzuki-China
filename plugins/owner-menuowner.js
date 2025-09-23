@@ -43,8 +43,8 @@ let handler = async (m, { conn, usedPrefix }) => {
     text: menu,
     contextInfo: {
       externalAdReply: {
-        title:`⏤͟͞ू⃪ 𝐋𝕌𝐍𝔸 𝐁𝕆𝐓 𑁯★ᰍ`,
-        body: '⏤͟͟͞͞𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 𝐂𝐡𝐢𝐧𝐚 🔥',
+        title:`𝕮𝖍𝖎𝖓𝖆 𝕸𝖎𝖙𝖟𝖚𝖐𝖎 🔥🇨🇳`,
+        body: '⏤͟͟͞͞𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 𝐂𝐡𝐢𝐧𝐚 💋',
         thumbnailUrl: media,
         sourceUrl: 'https://github.com/ittschinitaaa', // pon tu enlace
         mediaType: 1,

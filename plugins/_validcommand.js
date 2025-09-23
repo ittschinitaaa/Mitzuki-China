@@ -30,7 +30,7 @@ export async function before(m, { groupMetadata }) {
 try {
 let chtxt = ` ֯　ׅ🫗ֶ֟ㅤ *Usuario ›* ${m.pushName}
 
- ׄ 🔥 ׅ り *Comando usado ›* ${aliases}${command}
+ ׄ 🔥 ׅ り *Comando usado ›* #${command}
  ׄ 💋 ׅ り *Visita ›* instagram.com/its.chinitaaa_
  ׄ 🔥 ׅ り *Bot ›* ${wm}
  ׄ 💋 ׅ り *Versión del bot ›* ^1.0.0`

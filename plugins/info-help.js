@@ -24,7 +24,7 @@ let handler = async (m, { conn, args, usedPrefix }) => {
 
     let isOficialBot = conn.user.jid === globalThis.conn.user.jid
 
-    let botType = isOficialBot ? 'Principal' : 'Sub-Bot'
+    let botType = isOficialBot ? '𝐏𝐫𝐢𝐧𝐜𝐢𝐩𝐚𝐥 𝐏𝐞𝐫𝐬𝐨𝐧𝐚𝐥𝐢𝐳𝐚𝐝𝐨' : 'Sub-Bot'
 
 const jam = moment.tz('America/Argentina/Buenos_Aires').locale('id').format('HH:mm:ss')
 const ucapan = jam < '05:00:00' ? 'Buen día' : jam < '11:00:00' ? 'Buen día' : jam < '15:00:00' ? 'Buenas tardes' : jam < '18:00:00' ? 'Buenas tardes' : jam < '19:00:00' ? 'Buenas tardes' : jam < '23:59:00' ? 'Buenas noches' : 'Buenas noches';
@@ -37,7 +37,7 @@ menu += `╭┈ ↷\n`
 menu += `│ ✐ 𝓓𝓮𝓿𝓮𝓵𝓸𝓹𝓮𝓭 𝓫𝔂  𝑪𝑯𝑰𝑁𝑰𝑻𝑨 | ᵒᶠᶦᶜᶦᵃˡ\n`
 menu += `│ ✐ ꒷ꕤ🇨🇳ദ ɪɴsᴛᴀɢʀᴀᴍ ෴\n`
 menu += `│ https://www.instagram.com/its.chinitaaa_\n`
-menu += `│ ✐ ᴛɪᴘᴏ ʙᴏᴛ: ${botType}\n`
+menu += `│ ✐ ᴛɪᴘᴏ: ${botType}\n`
 menu += `╰━━━━━━━━━━\n\n`
 menu += `> "Muchas copias, Pero ninguna como la original." 💋\n`
     const categoryArg = args[0]?.toLowerCase();

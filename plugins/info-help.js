@@ -24,7 +24,7 @@ let handler = async (m, { conn, args, usedPrefix }) => {
 
     let isOficialBot = conn.user.jid === globalThis.conn.user.jid
 
-    let botType = isOficialBot ? '𝐏𝐫𝐢𝐧𝐜𝐢𝐩𝐚𝐥 𝐏𝐞𝐫𝐬𝐨𝐧𝐚𝐥𝐢𝐳𝐚𝐝𝐨' : '𝐒𝐮𝐛-𝐁𝐨𝐭'
+    let botType = isOficialBot ? '𝐎𝐅𝐂 𝐏𝐞𝐫𝐬𝐨𝐧𝐚𝐥𝐢𝐳𝐚𝐝𝐨 💋' : '𝐒𝐮𝐛-𝐁𝐨𝐭'
 
 const jam = moment.tz('America/Argentina/Buenos_Aires').locale('id').format('HH:mm:ss')
 const ucapan = jam < '05:00:00' ? 'Buen día' : jam < '11:00:00' ? 'Buen día' : jam < '15:00:00' ? 'Buenas tardes' : jam < '18:00:00' ? 'Buenas tardes' : jam < '19:00:00' ? 'Buenas tardes' : jam < '23:59:00' ? 'Buenas noches' : 'Buenas noches';
@@ -89,7 +89,7 @@ const channelRD = canales[Math.floor(Math.random() * canales.length)]
 
  await conn.sendMessage(m.chat, {
 document: await (await fetch(banner)).buffer(),
-fileName: '^1.0.0  | Lastest 🇨🇳',
+fileName: '^1.0.0  | Lastest 💋',
 mimetype: "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
 fileLength: '0',
 pageCount: '1',

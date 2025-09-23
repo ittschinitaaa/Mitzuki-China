@@ -24,13 +24,13 @@ const handler = async (m, { conn, text, command }) => {
       const canal = videoInfo.author?.name || 'Desconocido';
       const infoMessage = `˚∩　ׅ　🅨𝗈𝗎𝖳𝗎𝖻𝖾 🅟𝗅𝖺𝗒　ׄᰙ　ׅ
 
-> 🕸̴𖫲᮫ִ۫𝆬  Descargando › *${title}*
+> 🕸̴𖫲᮫۫𝆬  Descargando › *${title}*
 
-𖣣ֶㅤ֯⌗ 🐤 ׄ ⬭ Canal › *${canal}*
-𖣣ֶㅤ֯⌗ 🌿 ׄ ⬭ Duración › *${videoInfo.timestamp}*
-𖣣ֶㅤ֯⌗ 🌾 ׄ ⬭ Vistas › *${vistas}*
-𖣣ֶㅤ֯⌗ ⭐ ׄ ⬭ Publicado › *${videoInfo.ago}*
-𖣣ֶㅤ֯⌗ 🥙 ׄ ⬭ Enlace › *${url}*
+𖣣ֶㅤ֯⌗ 🔥 ׄ ⬭ Canal › *${canal}*
+𖣣ֶㅤ֯⌗ 💋 ׄ ⬭ Duración › *${videoInfo.timestamp}*
+𖣣ֶㅤ֯⌗ 🔥 ׄ ⬭ Vistas › *${vistas}*
+𖣣ֶㅤ֯⌗ 💋 ׄ ⬭ Publicado › *${videoInfo.ago}*
+𖣣ֶㅤ֯⌗ 🔥 ׄ ⬭ Enlace › *${url}*
 
 ${dev}`;
 
